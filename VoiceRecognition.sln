@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabApp", "LabApp\LabApp.csp
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "RecognitionModelingProject", "RecognitionModelingProject\RecognitionModelingProject.modelproj", "{825708C5-01DA-46BD-83B2-F7A40601DC00}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Guide", "Guide", "{F0AD7D9A-EC68-4A08-B340-95F6C626B1B3}"
+	ProjectSection(SolutionItems) = preProject
+		VoiceRecognition.pdf = VoiceRecognition.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
