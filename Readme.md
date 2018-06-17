@@ -26,7 +26,7 @@
 
 
 ## <p dir='rtl' align='right'> مستندات </p>
-[<p dir='rtl' align='right' style="padding-right:20px" >• راهنمای پروژه </p>](https://github.com/ghominejad/VoiceRecognition/blob/master/docs/VoiceRecognition.pdf)
+[<p dir='rtl' align='right' style="padding-right:20px" >• راهنمای پروژه </p>](https://github.com/ghominejad/VoiceRecognition/blob/master/Doc/Thesis.pdf)
 
 
 ##### <p dir='rtl' align='right' style="padding-right:20px">• خطای DirectX</p>
