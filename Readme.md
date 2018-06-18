@@ -26,11 +26,12 @@
 </p>
 
 ## <p dir='rtl' align='right'> نمای برنامه </p>
-##### <p dir='rtl' align='right' style="padding-right:20px">برنامه کاگاه - LabApp</p>
-<img src="lab.gif" />
+##### <p dir='rtl' align='right' style="padding-right:20px">• برنامه کاگاه - LabApp</p>
 
-##### <p dir='rtl' align='right' style="padding-right:20px">برنامه تشخیص حروف - RecognizerApp</p>
-<img src="recognizer.gif" />
+![](https://raw.githubusercontent.com/ghominejad/VoiceRecognition/master/Doc/lab.gif)
+
+##### <p dir='rtl' align='right' style="padding-right:20px">• برنامه تشخیص حروف - RecognizerApp</p>
+![](https://raw.githubusercontent.com/ghominejad/VoiceRecognition/master/Doc/recognizer.gif)
 
 ## <p dir='rtl' align='right'> مستندات </p>
 <p dir='rtl' align='right' style="padding-right:20px" > این ارائه متشکل از چهار پروژه به شرح زیر می باشد : </p>
