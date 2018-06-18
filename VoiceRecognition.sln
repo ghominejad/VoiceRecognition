@@ -15,7 +15,9 @@ Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "RecognitionModelingProject"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{F0AD7D9A-EC68-4A08-B340-95F6C626B1B3}"
 	ProjectSection(SolutionItems) = preProject
+		Doc\lab.gif = Doc\lab.gif
 		Readme.md = Readme.md
+		Doc\recognizer.gif = Doc\recognizer.gif
 		Doc\Thesis.pdf = Doc\Thesis.pdf
 	EndProjectSection
 EndProject
