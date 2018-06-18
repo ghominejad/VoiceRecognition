@@ -26,7 +26,7 @@
 </p>
 
 ## <p dir='rtl' align='right'> نمای برنامه </p>
-##### <p dir='rtl' align='right' style="padding-right:20px">• برنامه کاگاه - LabApp</p>
+##### <p dir='rtl' align='right' style="padding-right:20px">• برنامه آزمایشگاه - LabApp</p>
 
 ![](https://raw.githubusercontent.com/ghominejad/VoiceRecognition/master/Doc/lab.gif)
 
@@ -36,7 +36,7 @@
 ## <p dir='rtl' align='right'> مستندات </p>
 <p dir='rtl' align='right' style="padding-right:20px" > این ارائه متشکل از چهار پروژه به شرح زیر می باشد : </p>
 <p dir='rtl' align='right' style="padding-right:20px" >
-<b>1 - پروژه کاگاه - LabApp</b> :    این پروژه ابزارهایی مانند ابزار طیف نگاری اصوات در اختیار کاربران قرار میدهد تا کابران بتوانند از طریق میکروفون اصوات را مورد بررسی قرار دهند
+<b>1 - پروژه آزمایشگاه - LabApp</b> :    این پروژه ابزارهایی مانند ابزار طیف نگاری اصوات در اختیار کاربران قرار میدهد تا کابران بتوانند از طریق میکروفون اصوات را مورد بررسی قرار دهند
 </p>
 <p dir='rtl' align='right' style="padding-right:20px" >
 <b>2 - پروژه تشخیص حروف - RecognizerApp</b> :    این پروژه چند حروف بخصوص (آ، اَ، اِ، س، ش، ز، ژ) که کاربر از طریق میکروفون بیان میکند را تشخیص داده و بر روی صفحه، نمایش میدهد
