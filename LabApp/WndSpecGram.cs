@@ -238,6 +238,7 @@ namespace LabApp
             detector = PhonemeDetectorFactory.CreatePhonemeDetectors();
 
             loaded = true;
+            autoRefresh = true;
             GramUtils.Archive = GramUtils.NormalArchive;
         }
 

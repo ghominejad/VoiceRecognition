@@ -44,7 +44,7 @@
             this.label1.Size = new System.Drawing.Size(535, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "لطفا یکی ار حرف های (  آ - اَ - اِ - ی - س - ش - ز - ژ ) را جهت شناسایی به صدا در" +
-                " آورید";
+    " آورید";
             // 
             // tmDisplayPhoneme
             // 

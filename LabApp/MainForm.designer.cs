@@ -31,8 +31,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.پنجرههاToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.اسپکترومToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.موجنماToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.تیونرToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.اسپکتوگرافToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.رکوردToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,17 +59,15 @@
             this.اسپکترومToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1124, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(234, 24);
             this.menuStrip1.TabIndex = 10;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // پنجرههاToolStripMenuItem
             // 
             this.پنجرههاToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.اسپکترومToolStripMenuItem,
-            this.موجنماToolStripMenuItem,
-            this.تیونرToolStripMenuItem,
-            this.اسپکتوگرافToolStripMenuItem});
+            this.اسپکتوگرافToolStripMenuItem,
+            this.اسپکترومToolStripMenuItem});
             this.پنجرههاToolStripMenuItem.Name = "پنجرههاToolStripMenuItem";
             this.پنجرههاToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.پنجرههاToolStripMenuItem.Text = "پنجره ها";
@@ -83,18 +79,6 @@
             this.اسپکترومToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.اسپکترومToolStripMenuItem.Text = "اسپکتروم";
             this.اسپکترومToolStripMenuItem.Click += new System.EventHandler(this.specToolStripMenuItem_Click);
-            // 
-            // موجنماToolStripMenuItem
-            // 
-            this.موجنماToolStripMenuItem.Name = "موجنماToolStripMenuItem";
-            this.موجنماToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.موجنماToolStripMenuItem.Text = "موج نما";
-            // 
-            // تیونرToolStripMenuItem
-            // 
-            this.تیونرToolStripMenuItem.Name = "تیونرToolStripMenuItem";
-            this.تیونرToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.تیونرToolStripMenuItem.Text = "تیونر";
             // 
             // اسپکتوگرافToolStripMenuItem
             // 
@@ -110,7 +94,7 @@
             this.stopToolStripMenuItem,
             this.sampleRateToolStripMenuItem});
             this.رکوردToolStripMenuItem.Name = "رکوردToolStripMenuItem";
-            this.رکوردToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.رکوردToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.رکوردToolStripMenuItem.Text = "رکورد";
             // 
             // listenToolStripMenuItem
@@ -161,7 +145,7 @@
             this.fFTTypeToolStripMenuItem,
             this.colorPalleteToolStripMenuItem});
             this.اسپکترومToolStripMenuItem1.Name = "اسپکترومToolStripMenuItem1";
-            this.اسپکترومToolStripMenuItem1.Size = new System.Drawing.Size(61, 20);
+            this.اسپکترومToolStripMenuItem1.Size = new System.Drawing.Size(63, 20);
             this.اسپکترومToolStripMenuItem1.Text = "اسپکتروم";
             // 
             // بزرگنماییفرکانسToolStripMenuItem
@@ -169,7 +153,7 @@
             this.بزرگنماییفرکانسToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.specZoomToolStripMenuItem});
             this.بزرگنماییفرکانسToolStripMenuItem.Name = "بزرگنماییفرکانسToolStripMenuItem";
-            this.بزرگنماییفرکانسToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.بزرگنماییفرکانسToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.بزرگنماییفرکانسToolStripMenuItem.Text = "بزرگنمایی فرکانس";
             // 
             // specZoomToolStripMenuItem
@@ -197,7 +181,7 @@
             this.بزرگنماییقدرتToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ampZoomtoolStripComboBox});
             this.بزرگنماییقدرتToolStripMenuItem.Name = "بزرگنماییقدرتToolStripMenuItem";
-            this.بزرگنماییقدرتToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.بزرگنماییقدرتToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.بزرگنماییقدرتToolStripMenuItem.Text = "بزرگنمایی قدرت";
             // 
             // ampZoomtoolStripComboBox
@@ -220,7 +204,7 @@
             this.فاصلهپیچToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripComboBox1});
             this.فاصلهپیچToolStripMenuItem.Name = "فاصلهپیچToolStripMenuItem";
-            this.فاصلهپیچToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.فاصلهپیچToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.فاصلهپیچToolStripMenuItem.Text = "FFT Length";
             // 
             // toolStripComboBox1
@@ -245,7 +229,7 @@
             this.fFTTypeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripComboBox2});
             this.fFTTypeToolStripMenuItem.Name = "fFTTypeToolStripMenuItem";
-            this.fFTTypeToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.fFTTypeToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.fFTTypeToolStripMenuItem.Text = "FFT Type";
             // 
             // toolStripComboBox2
@@ -261,24 +245,25 @@
             // colorPalleteToolStripMenuItem
             // 
             this.colorPalleteToolStripMenuItem.Name = "colorPalleteToolStripMenuItem";
-            this.colorPalleteToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.colorPalleteToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.colorPalleteToolStripMenuItem.Text = "پالت رنگ";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(354, 138);
+            this.button1.Location = new System.Drawing.Point(12, 50);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 11;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1124, 530);
+            this.ClientSize = new System.Drawing.Size(234, 461);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -301,8 +286,6 @@
         private System.Windows.Forms.ToolStripMenuItem رکوردToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listenToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem stopToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem موجنماToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem تیونرToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem اسپکترومToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem بزرگنماییفرکانسToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem بزرگنماییقدرتToolStripMenuItem;

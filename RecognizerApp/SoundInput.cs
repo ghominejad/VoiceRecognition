@@ -21,7 +21,10 @@ namespace RecognizerApp
         }
        
         protected override void ProcessData(short[] data)
-        {   
+        {
+            
+
+
             if (FrequencyDetected != null)
                 FrequencyDetected( data);
         }

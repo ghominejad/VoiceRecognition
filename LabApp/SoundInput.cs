@@ -16,7 +16,7 @@ namespace RecognizerApp
         public event SampleDataReceiverDelegate FrequencyDetected = null;
 
 
-        public SoundInput(SampleDataReceiverDelegate receiver) : base(SoundCaptureDevice.GetDevices()[0])
+        public SoundInput(SampleDataReceiverDelegate receiver)
         {
             SampleRate = 192000;
             FrequencyDetected += new SampleDataReceiverDelegate(receiver);
