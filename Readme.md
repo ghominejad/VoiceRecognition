@@ -96,6 +96,5 @@
 <p dir='rtl' align='right' style="padding-right:20px" >در صورتی که به مشکلی برخوردید لطفا آن را در قسمت Issues بیان کنید</p>
 
 
-* ghominejad@gmail.com
-* https://www.linkedin.com/in/ghominejad/
+ghominejad@gmail.com
 
